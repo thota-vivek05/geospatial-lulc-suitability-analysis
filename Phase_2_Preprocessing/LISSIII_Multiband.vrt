@@ -1,0 +1,85 @@
+<VRTDataset rasterXSize="7808" rasterYSize="7094">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 44N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.25722293287,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",81],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32644"]]</SRS>
+  <GeoTransform>  1.9128144308370308e+05,  2.4000000000000000e+01,  0.0000000000000000e+00,  2.0648520000000000e+06,  0.0000000000000000e+00, -2.4000000000000000e+01</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">159</MDI>
+      <MDI key="STATISTICS_MEAN">69.994542550627</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">37.481792273567</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.496875</HistMin>
+        <HistMax>159.496875</HistMax>
+        <BucketCount>160</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>146116|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|12|46|209|572|928|1217|2059|3545|5980|9993|15710|22994|30718|38817|44619|48260|48483|46477|41547|34814|27348|21019|15617|11699|8766|6602|5289|4263|3603|2965|2453|2061|1673|1393|1072|880|665|586|425|346|293|284|228|186|152|114|112|68|60|59|37|36|33|28|28|19|14|15|13|7|7|6|4|8|2|3|3|3|3|2|0|3|3|0|2|0|0|0|0|0|0|0|1|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">C:\Users\thota\Documents\Classes\UG-3\SEM-2\GEOTA\LULC_project\Phase_1_Data\Satellite_Image\img2\BAND2.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7808" RasterYSize="7094" DataType="UInt16" BlockXSize="7808" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7808" ySize="7094" />
+      <DstRect xOff="0" yOff="0" xSize="7808" ySize="7094" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">159</MDI>
+      <MDI key="STATISTICS_MEAN">58.776978363067</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">32.110067869956</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.496875</HistMin>
+        <HistMax>159.496875</HistMax>
+        <BucketCount>160</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>146114|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|4|97|245|510|881|1012|1140|1325|1728|2538|4088|6096|9003|12241|16105|20052|23090|26545|28557|29575|29571|28915|28000|25975|23904|22049|20066|18267|16599|15096|13421|12123|10483|9178|8408|7206|6187|5392|4594|4080|3484|2902|2454|2140|1772|1529|1247|1067|887|761|639|558|457|441|412|324|292|244|196|178|147|147|158|127|91|79|82|59|56|40|26|22|27|24|18|24|16|15|11|3|10|11|5|9|3|3|2|1|5|1|0|5|3|1|0|1|1|1|0|1|0|0|0|0|0|0|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">C:\Users\thota\Documents\Classes\UG-3\SEM-2\GEOTA\LULC_project\Phase_1_Data\Satellite_Image\img2\BAND3.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7808" RasterYSize="7094" DataType="UInt16" BlockXSize="7808" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7808" ySize="7094" />
+      <DstRect xOff="0" yOff="0" xSize="7808" ySize="7094" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">240</MDI>
+      <MDI key="STATISTICS_MEAN">96.337005785921</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">53.169217090352</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.4979253112033195</HistMin>
+        <HistMax>240.4979253112033</HistMax>
+        <BucketCount>241</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>146099|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|18|91|219|293|484|619|565|503|450|499|487|451|373|316|349|373|405|456|500|534|507|594|545|609|566|593|573|524|488|469|457|418|417|441|406|390|381|415|436|508|603|705|915|1111|1399|1747|2129|2706|3243|3744|4470|5055|5712|6597|7249|7757|8654|9453|9888|10760|11327|11684|12491|13209|13769|14375|15448|16073|15939|15740|15706|15458|15307|15126|15200|14905|14705|13948|13216|12695|11748|10901|10184|9254|8182|7511|6611|5963|5500|4736|4159|3589|3220|2709|2444|2091|1954|1749|1575|1348|1211|1121|989|854|801|810|693|649|557|554|508|443|397|357|331|315|258|254|227|235|216|191|173|160|161|141|132|122|102|96|90|68|57|67|69|66|62|49|38|43|36|25|37|36|28|34|22|26|23|23|16|22|13|19|25|9|13|9|9|12|11|8|8|12|6|8|7|8|3|5|4|6|1|5|0|1|3|1|3|2|2|2|0|0|0|1|2</HistCounts>
+      </HistItem>
+    </Histograms>
+    <SimpleSource resampling="nearest">
+      <SourceFilename relativeToVRT="0">C:\Users\thota\Documents\Classes\UG-3\SEM-2\GEOTA\LULC_project\Phase_1_Data\Satellite_Image\img2\BAND4.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="7808" RasterYSize="7094" DataType="UInt16" BlockXSize="7808" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="7808" ySize="7094" />
+      <DstRect xOff="0" yOff="0" xSize="7808" ySize="7094" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
