@@ -195,6 +195,23 @@ The final suitability outputs were generated using:
 
 ---
 
+## Full Dataset Access
+
+Large geospatial raster and vector datasets were excluded from GitHub due to storage limitations.
+
+Download Full Dataset:
+
+[Google Drive Dataset Link](https://drive.google.com/drive/folders/1ocKIoZVEBqPdhSl7Kd3wevYbGbxp2HFD?usp=sharing)
+
+The dataset includes:
+- Raw satellite imagery
+- GeoTIFF rasters
+- GeoJSON/KML vectors
+- Intermediate preprocessing outputs
+- ML suitability rasters
+
+---
+
 # Web Visualization
 
 A frontend web application was developed to visualize geospatial outputs and suitability maps interactively.
