@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+
+# Node
+node_modules/
+dist/
+
+# GIS temporary
+*.aux.xml
+*.qmd
+*.vrt
+*.points
+*.lock
+
+# Large GIS data
+*.tif
+*.tiff
+*.gpkg
+*.geojson
+*.kml
+*.dbf
+*.shp
+*.shx
+*.zip
+
+# QGIS
+*.qgz
